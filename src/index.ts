@@ -3,10 +3,12 @@ import bbaSubjects from './programmes/bba';
 import webpage from './webpage';
 import iab from './inappbrowser';
 
-const specialLectureKeywords = {
+const SPECIAL_LECTURE_KEYWORDS = {
 	'practical lecture': 'Practice',
 	'tutorial': 'Tutorial'
 };
+
+const LESSON_TIMETABLE = 'Lesson Timetable';
 
 export default {
 	async fetch(request, env, ctx): Promise<Response> {
@@ -45,8 +47,8 @@ export default {
 			const comp = new ical.Component(jcalData);
 			const vevents = comp.getAllSubcomponents('vevent');
 
-			comp.updatePropertyWithValue('SUMMARY', 'Lessons Schedule');
-			comp.updatePropertyWithValue('X-WR-CALNAME', 'Lessons Schedule');
+			comp.updatePropertyWithValue('SUMMARY', LESSON_TIMETABLE);
+			comp.updatePropertyWithValue('X-WR-CALNAME', LESSON_TIMETABLE);
 
 			vevents.forEach((vevent) => {
 				const event = new ical.Event(vevent);
@@ -59,7 +61,7 @@ export default {
 
 				event.summary = subject ? subject.subjectName : originalSummary.split(',')[0].split(' ')[1];
 
-				for (const [keyword, text] of Object.entries(specialLectureKeywords)) {
+				for (const [keyword, text] of Object.entries(SPECIAL_LECTURE_KEYWORDS)) {
 					if (originalSummary.toLowerCase().includes(keyword)) {
 						event.summary += ` (${text})`;
 						break;
