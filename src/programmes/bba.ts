@@ -16,7 +16,7 @@ const subjects = [
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00173268',
 			},
 			{
-				name: 'J. Ramos González',
+				name: 'J. Ramos Gonz\u00e1lez',
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00174089',
 			},
 			{
@@ -62,10 +62,6 @@ const subjects = [
 			{
 				name: 'P. Paepen',
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00086011',
-			},
-			{
-				name: 'A. Praet',
-				profile: 'http://www.kuleuven.be/wieiswie/en/person/00003263',
 			},
 			{
 				name: 'W. Creemers',
@@ -117,10 +113,6 @@ const subjects = [
 				name: 'V. Ghijselinck',
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00057509',
 			},
-			{
-				name: 'S. Vergauwe',
-				profile: 'http://www.kuleuven.be/wieiswie/en/person/00060778',
-			},
 		],
 	},
 	{
@@ -139,10 +131,6 @@ const subjects = [
 				name: 'A. De Ridder',
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00071730',
 			},
-			{
-				name: 'N. Rogge',
-				profile: 'http://www.kuleuven.be/wieiswie/en/person/00049838',
-			},
 		],
 	},
 	{
@@ -156,10 +144,6 @@ const subjects = [
 			{
 				name: 'M. Corner',
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00054695',
-			},
-			{
-				name: 'I. Verhoeven',
-				profile: 'http://www.kuleuven.be/wieiswie/en/person/00071206',
 			},
 		],
 	},
@@ -180,7 +164,7 @@ const subjects = [
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00173268',
 			},
 			{
-				name: 'J. Ramos González',
+				name: 'J. Ramos Gonz\u00e1lez',
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00174089',
 			},
 			{
@@ -278,7 +262,7 @@ const subjects = [
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00173268',
 			},
 			{
-				name: 'J. Ramos González',
+				name: 'J. Ramos Gonz\u00e1lez',
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00174089',
 			},
 		],
@@ -294,10 +278,6 @@ const subjects = [
 			{
 				name: 'W. Goemans',
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00071316',
-			},
-			{
-				name: 'S. Van Gulck',
-				profile: 'http://www.kuleuven.be/wieiswie/en/person/00011459',
 			},
 			{
 				name: 'L. Egholm',
@@ -405,10 +385,6 @@ const subjects = [
 		ectsCode: 'HBA15C',
 		subjectName: 'Introduction to Methods in Operational Research',
 		teachers: [
-			{
-				name: 'D. De Bock',
-				profile: 'http://www.kuleuven.be/wieiswie/en/person/00002527',
-			},
 			{
 				name: 'D. De Bock',
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00002527',
@@ -559,7 +535,7 @@ const subjects = [
 	},
 	{
 		ectsCode: 'HBA35C',
-		subjectName: 'French 3 (advanced)',
+		subjectName: 'French 3 (Advanced)',
 		teachers: [
 			{
 				name: 'J. Hengels',
@@ -589,7 +565,7 @@ const subjects = [
 	},
 	{
 		ectsCode: 'HBA47C',
-		subjectName: 'Dutch 3 (advanced)',
+		subjectName: 'Dutch 3 (Advanced)',
 		teachers: [
 			{
 				name: 'I. Verhoeven',
@@ -608,10 +584,6 @@ const subjects = [
 			{
 				name: 'E. Snauwaert',
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00012658',
-			},
-			{
-				name: 'F. Vanoverberghe',
-				profile: 'http://www.kuleuven.be/wieiswie/en/person/00062644',
 			},
 		],
 	},
@@ -674,10 +646,6 @@ const subjects = [
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00071054',
 			},
 			{
-				name: 'P. Vanmol',
-				profile: 'http://www.kuleuven.be/wieiswie/en/person/00071303',
-			},
-			{
 				name: 'A. De Winter',
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00073767',
 			},
@@ -725,10 +693,6 @@ const subjects = [
 				name: 'A. De Ridder',
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00071730',
 			},
-			{
-				name: 'N. Rogge',
-				profile: 'http://www.kuleuven.be/wieiswie/en/person/00049838',
-			},
 		],
 	},
 	{
@@ -746,10 +710,6 @@ const subjects = [
 			{
 				name: 'A. De Ridder',
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00071730',
-			},
-			{
-				name: 'N. Rogge',
-				profile: 'http://www.kuleuven.be/wieiswie/en/person/00049838',
 			},
 		],
 	},
@@ -784,7 +744,7 @@ const subjects = [
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00173268',
 			},
 			{
-				name: 'J. Ramos González',
+				name: 'J. Ramos Gonz\u00e1lez',
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00174089',
 			},
 		],
@@ -845,7 +805,7 @@ const subjects = [
 	},
 	{
 		ectsCode: 'HBA31C',
-		subjectName: 'French 1 (advanced)',
+		subjectName: 'French 1 (Advanced)',
 		teachers: [
 			{
 				name: 'J. Hengels',
@@ -873,7 +833,7 @@ const subjects = [
 	},
 	{
 		ectsCode: 'HBA33C',
-		subjectName: 'French 2 (advanced)',
+		subjectName: 'French 2 (Advanced)',
 		teachers: [
 			{
 				name: 'J. Hengels',
@@ -901,7 +861,7 @@ const subjects = [
 	},
 	{
 		ectsCode: 'HBA35C',
-		subjectName: 'French 3 (advanced)',
+		subjectName: 'French 3 (Advanced)',
 		teachers: [
 			{
 				name: 'J. Hengels',
@@ -951,7 +911,7 @@ const subjects = [
 	},
 	{
 		ectsCode: 'HBA45C',
-		subjectName: 'Dutch 1 (advanced)',
+		subjectName: 'Dutch 1 (Advanced)',
 		teachers: [
 			{
 				name: 'I. Verhoeven',
@@ -971,7 +931,7 @@ const subjects = [
 	},
 	{
 		ectsCode: 'HBA46C',
-		subjectName: 'Dutch 2 (advanced)',
+		subjectName: 'Dutch 2 (Advanced)',
 		teachers: [
 			{
 				name: 'I. Verhoeven',
@@ -991,7 +951,7 @@ const subjects = [
 	},
 	{
 		ectsCode: 'HBA47C',
-		subjectName: 'Dutch 3 (advanced)',
+		subjectName: 'Dutch 3 (Advanced)',
 		teachers: [
 			{
 				name: 'I. Verhoeven',
@@ -1011,10 +971,6 @@ const subjects = [
 				name: 'E. Snauwaert',
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00012658',
 			},
-			{
-				name: 'F. Vanoverberghe',
-				profile: 'http://www.kuleuven.be/wieiswie/en/person/00062644',
-			},
 		],
 	},
 	{
@@ -1029,10 +985,6 @@ const subjects = [
 				name: 'E. Snauwaert',
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00012658',
 			},
-			{
-				name: 'F. Vanoverberghe',
-				profile: 'http://www.kuleuven.be/wieiswie/en/person/00062644',
-			},
 		],
 	},
 	{
@@ -1046,10 +998,6 @@ const subjects = [
 			{
 				name: 'E. Snauwaert',
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00012658',
-			},
-			{
-				name: 'F. Vanoverberghe',
-				profile: 'http://www.kuleuven.be/wieiswie/en/person/00062644',
 			},
 		],
 	},
@@ -1107,10 +1055,6 @@ const subjects = [
 				name: 'H. De Groote',
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00071024',
 			},
-			{
-				name: 'A. Van Nuffel',
-				profile: 'http://www.kuleuven.be/wieiswie/en/person/00071249',
-			},
 		],
 	},
 	{
@@ -1135,7 +1079,7 @@ const subjects = [
 	},
 	{
 		ectsCode: 'D0E59A',
-		subjectName: 'Internship Project (bachelor)',
+		subjectName: 'Internship Project (Bachelor)',
 		teachers: [
 			{
 				name: 'S. Hoofdt',
@@ -1159,7 +1103,7 @@ const subjects = [
 	},
 	{
 		ectsCode: 'D0E60A',
-		subjectName: 'Internship Project (bachelor)',
+		subjectName: 'Internship Project (Bachelor)',
 		teachers: [
 			{
 				name: 'S. Hoofdt',
@@ -1241,7 +1185,7 @@ const subjects = [
 	},
 	{
 		ectsCode: 'D0E59A',
-		subjectName: 'Internship Project (bachelor)',
+		subjectName: 'Internship Project (Bachelor)',
 		teachers: [
 			{
 				name: 'S. Hoofdt',
@@ -1251,7 +1195,7 @@ const subjects = [
 	},
 	{
 		ectsCode: 'D0E60A',
-		subjectName: 'Internship Project (bachelor)',
+		subjectName: 'Internship Project (Bachelor)',
 		teachers: [
 			{
 				name: 'S. Hoofdt',
@@ -1267,20 +1211,12 @@ const subjects = [
 				name: 'T. Verbeke',
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00063587',
 			},
-			{
-				name: 'T. Verbeke',
-				profile: 'http://www.kuleuven.be/wieiswie/en/person/00063587',
-			},
 		],
 	},
 	{
 		ectsCode: 'HBH85E',
 		subjectName: 'Management humain (USL)',
 		teachers: [
-			{
-				name: 'T. Verbeke',
-				profile: 'http://www.kuleuven.be/wieiswie/en/person/00063587',
-			},
 			{
 				name: 'T. Verbeke',
 				profile: 'http://www.kuleuven.be/wieiswie/en/person/00063587',
